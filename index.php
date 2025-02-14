@@ -9,7 +9,7 @@
       <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
         <div class="col-xl-6 col-lg-8">
           <!-- Updated Title and Subheading -->
-          <h2>Strategy Finance Solutions with BrillionEx<span>.</span></h2>
+          <h2>BrillionEx: Strategic Finance<span>.</span></h2>
           <p>Strategy | Finance | Success</p>
         </div>
       </div>
