@@ -187,7 +187,7 @@
               <div class="stats-item d-flex">
                 <i class="bi bi-emoji-smile flex-shrink-0"></i>
                 <div>
-                  <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+                  <span data-purecounter-start="0" data-purecounter-end="188" data-purecounter-duration="1" class="purecounter"></span>
                   <p><strong>Satisfied Clients</strong> achieving success</p>
                 </div>
               </div>
@@ -205,7 +205,7 @@
               <div class="stats-item d-flex">
                 <i class="bi bi-headset flex-shrink-0"></i>
                 <div>
-                  <span data-purecounter-start="0" data-purecounter-end="2000" data-purecounter-duration="1" class="purecounter"></span>
+                  <span data-purecounter-start="0" data-purecounter-end="1888" data-purecounter-duration="1" class="purecounter"></span>
                   <p><strong>Consultations</strong> expert guidance</p>
                 </div>
               </div>
@@ -214,7 +214,7 @@
               <div class="stats-item d-flex">
                 <i class="bi bi-people flex-shrink-0"></i>
                 <div>
-                  <span data-purecounter-start="0" data-purecounter-end="45" data-purecounter-duration="1" class="purecounter"></span>
+                  <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
                   <p><strong>Expert Advisors</strong> dedicated professionals</p>
                 </div>
               </div>
