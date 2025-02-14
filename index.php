@@ -2,58 +2,58 @@
 
 <!-- Main Content -->
 <main class="main">
-  <!-- Hero Section -->
-  <section id="hero" class="hero section dark-background">
-    <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-    <div class="container">
-      <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-        <div class="col-xl-6 col-lg-8">
-          <!-- Updated Title and Subheading -->
-          <h2>BrillionEx : Strategic Finance<span>.</span></h2>
-          <p>Strategy | Finance | Success</p>
+<!-- Hero Section -->
+<section id="hero" class="hero section dark-background">
+  <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+  <div class="container">
+    <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-xl-6 col-lg-8">
+        <!-- Updated Title and Subheading -->
+        <h2>BrillionEx: Strategic Finance<span>.</span></h2>
+        <p>Strategy | Finance | Success</p>
+      </div>
+    </div>
+    <!-- Service Icons Section with Two-Word Titles -->
+    <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <!-- Service 1: Personal Finance -->
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon-box">
+          <i class="bi bi-currency-dollar"></i>
+          <h3><a href="">Personal Finance</a></h3>
         </div>
       </div>
-      <!-- Service Icons Section (No descriptions) -->
-      <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
-        <!-- Service 1: Finance Management -->
-        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
-          <div class="icon-box">
-            <i class="bi bi-currency-dollar"></i>
-            <h3><a href="">Finance Management</a></h3>
-          </div>
+      <!-- Service 2: Debt Consolidation -->
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="icon-box">
+          <i class="bi bi-cash-stack"></i>
+          <h3><a href="">Debt Consolidation</a></h3>
         </div>
-        <!-- Service 2: Debt Consolidation -->
-        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
-          <div class="icon-box">
-            <i class="bi bi-cash-stack"></i>
-            <h3><a href="">Debt Consolidation</a></h3>
-          </div>
+      </div>
+      <!-- Service 3: Business Finance -->
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="icon-box">
+          <i class="bi bi-credit-card"></i>
+          <h3><a href="">Business Finance</a></h3>
         </div>
-        <!-- Service 3: Loan Specialist -->
-        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
-          <div class="icon-box">
-            <i class="bi bi-credit-card"></i>
-            <h3><a href="">Loan Specialist</a></h3>
-          </div>
+      </div>
+      <!-- Service 4: Mortgage Refinance -->
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
+        <div class="icon-box">
+          <i class="bi bi-bar-chart-line"></i>
+          <h3><a href="">Mortgage Refinance</a></h3>
         </div>
-        <!-- Service 4: Investment Advisory -->
-        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
-          <div class="icon-box">
-            <i class="bi bi-bar-chart-line"></i>
-            <h3><a href="">Investment Advisory</a></h3>
-          </div>
-        </div>
-        <!-- Service 5: Tax Planning -->
-        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
-          <div class="icon-box">
-            <i class="bi bi-file-earmark-check"></i>
-            <h3><a href="">Tax Planning</a></h3>
-          </div>
+      </div>
+      <!-- Service 5: Loan Specialist -->
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
+        <div class="icon-box">
+          <i class="bi bi-file-earmark-check"></i>
+          <h3><a href="">Loan Specialist</a></h3>
         </div>
       </div>
     </div>
-  </section>
-  <!-- /Hero Section -->
+  </div>
+</section>
+
 
 <!-- About Section -->
 <section id="about" class="about section">
