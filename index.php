@@ -170,56 +170,7 @@
   </section>
 <!-- /Call To Action Section -->
 
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="portfolio section">
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Portfolio</h2>
-      <p>Check our Portfolio</p>
-    </div>
-    <div class="container">
-      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-product">Card</li>
-          <li data-filter=".filter-branding">Web</li>
-        </ul>
-        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-            <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>Lorem ipsum, dolor sit</p>
-              <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-            <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Product 1</h4>
-              <p>Lorem ipsum, dolor sit</p>
-              <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-            <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Branding 1</h4>
-              <p>Lorem ipsum, dolor sit</p>
-              <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-          <!-- Repeat additional portfolio items as needed -->
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /Portfolio Section -->
-
-  <!-- Stats Section -->
+<!-- Stats Section -->
   <section id="stats" class="stats section">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row gy-4 align-items-center justify-content-between">
@@ -227,17 +178,17 @@
           <img src="assets/img/stats-img.jpg" alt="" class="img-fluid">
         </div>
         <div class="col-lg-6">
-          <h3 class="fw-bold fs-2 mb-3">Voluptatem dignissimos provident quasi</h3>
+          <h3 class="fw-bold fs-2 mb-3">Empowering Financial Success</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+            Our exceptional track record in delivering strategic financial solutions speaks to our unwavering commitment to your prosperity.
           </p>
           <div class="row gy-4">
             <div class="col-lg-6">
               <div class="stats-item d-flex">
                 <i class="bi bi-emoji-smile flex-shrink-0"></i>
                 <div>
-                  <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                  <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
+                  <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+                  <p><strong>Satisfied Clients</strong> achieving success</p>
                 </div>
               </div>
             </div>
@@ -245,8 +196,8 @@
               <div class="stats-item d-flex">
                 <i class="bi bi-journal-richtext flex-shrink-0"></i>
                 <div>
-                  <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                  <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+                  <span data-purecounter-start="0" data-purecounter-end="320" data-purecounter-duration="1" class="purecounter"></span>
+                  <p><strong>Financing Deals</strong> tailored solutions</p>
                 </div>
               </div>
             </div>
@@ -254,8 +205,8 @@
               <div class="stats-item d-flex">
                 <i class="bi bi-headset flex-shrink-0"></i>
                 <div>
-                  <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-                  <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+                  <span data-purecounter-start="0" data-purecounter-end="2000" data-purecounter-duration="1" class="purecounter"></span>
+                  <p><strong>Consultations</strong> expert guidance</p>
                 </div>
               </div>
             </div>
@@ -263,8 +214,8 @@
               <div class="stats-item d-flex">
                 <i class="bi bi-people flex-shrink-0"></i>
                 <div>
-                  <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-                  <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
+                  <span data-purecounter-start="0" data-purecounter-end="45" data-purecounter-duration="1" class="purecounter"></span>
+                  <p><strong>Expert Advisors</strong> dedicated professionals</p>
                 </div>
               </div>
             </div>
@@ -273,9 +224,10 @@
       </div>
     </div>
   </section>
-  <!-- /Stats Section -->
+<!-- /Stats Section -->
 
-  <!-- Testimonials Section -->
+
+<!-- Testimonials Section -->
   <section id="testimonials" class="testimonials section dark-background">
     <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -296,11 +248,12 @@
           }
         </script>
         <div class="swiper-wrapper">
+          <!-- Testimonial 1 -->
           <div class="swiper-slide">
             <div class="testimonial-item">
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
+              <h3>John Smith</h3>
+              <h4>CEO, FinCorp</h4>
               <div class="stars">
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
@@ -309,29 +262,81 @@
                 <i class="bi bi-star-fill"></i>
               </div>
               <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
+                "BrillionEx transformed our financial strategy with expert guidance and a bespoke approach that delivered measurable results."
               </p>
             </div>
           </div>
-          <!-- Repeat additional testimonial items as needed -->
+          <!-- Testimonial 2 -->
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <h3>Jane Doe</h3>
+              <h4>Managing Director, Growth Investments</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                "Their strategic insights and tailored financing solutions have significantly improved our company's cash flow and growth prospects."
+              </p>
+            </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Michael Lee</h3>
+              <h4>Founder, Startup Hub</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                "BrillionEx's innovative financing strategies helped us secure critical investments to scale our business effectively."
+              </p>
+            </div>
+          </div>
+          <!-- Testimonial 4 -->
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <h3>Susan Green</h3>
+              <h4>CFO, Enterprise Solutions</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                "Their commitment to personalized service and innovative financing solutions has been instrumental in our financial turnaround."
+              </p>
+            </div>
+          </div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
     </div>
   </section>
-  <!-- /Testimonials Section -->
+<!-- /Testimonials Section -->
 
-  <!-- Team Section -->
+<!-- Team Section -->
   <section id="team" class="team section">
     <div class="container section-title" data-aos="fade-up">
       <h2>Team</h2>
-      <p>our Team</p>
+      <p>Our Expert Team</p>
     </div>
     <div class="container">
       <div class="row gy-4">
-        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <!-- CEO -->
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="team-member">
             <div class="member-img">
               <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
@@ -343,18 +348,53 @@
               </div>
             </div>
             <div class="member-info">
-              <h4>Walter White</h4>
+              <h4>Chen Wei</h4>
               <span>Chief Executive Officer</span>
             </div>
           </div>
         </div>
-        <!-- Repeat additional team members as needed -->
+        <!-- CFO -->
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Minh Tran</h4>
+              <span>Chief Financial Officer</span>
+            </div>
+          </div>
+        </div>
+        <!-- Credit Management Specialist -->
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Soojin Park</h4>
+              <span>Credit Management Specialist</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <!-- /Team Section -->
+<!-- /Team Section -->
 
-  <!-- Contact Section -->
+<!-- Contact Section -->
   <section id="contact" class="contact section">
     <div class="container section-title" data-aos="fade-up">
       <h2>Contact</h2>
@@ -362,7 +402,12 @@
     </div>
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe style="border:0; width: 100%; height: 270px;" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.282535137082!2d101.68508894320591!3d3.141317359083744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3719d39e3f37%3A0x2da1a2d86c23f1c4!2sMenara%20Allianz%20Sentral!5e0!3m2!1sen!2smy!4v1676961268712!5m2!1sen!2smy" 
+                frameborder="0" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="row gy-4">
         <div class="col-lg-4">
@@ -370,21 +415,21 @@
             <i class="bi bi-geo-alt flex-shrink-0"></i>
             <div>
               <h3>Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <p>Level 23A, Menara Allianz Sentral, 203, Jalan Tun Sambanthan, Brickfields, 50470 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
             </div>
           </div>
           <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
             <i class="bi bi-telephone flex-shrink-0"></i>
             <div>
               <h3>Call Us</h3>
-              <p>+1 5589 55488 55</p>
+              <p>03-29359553</p>
             </div>
           </div>
           <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
             <i class="bi bi-envelope flex-shrink-0"></i>
             <div>
               <h3>Email Us</h3>
-              <p>info@example.com</p>
+              <p>info@brillionex.com</p>
             </div>
           </div>
         </div>
@@ -415,7 +460,7 @@
       </div>
     </div>
   </section>
-  <!-- /Contact Section -->
+<!-- /Contact Section -->
 </main>
 
 <?php include 'footer.php'; ?>
