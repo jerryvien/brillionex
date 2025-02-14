@@ -187,7 +187,7 @@
               <div class="stats-item d-flex">
                 <i class="bi bi-emoji-smile flex-shrink-0"></i>
                 <div>
-                  <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                  <span data-purecounter-start="0" data-purecounter-end="188" data-purecounter-duration="1" class="purecounter"></span>
                   <p><strong>Satisfied Clients</strong> achieving success</p>
                 </div>
               </div>
