@@ -55,31 +55,31 @@
   </section>
   <!-- /Hero Section -->
 
-  <!-- About Section -->
-  <section id="about" class="about section">
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <div class="row gy-4">
-        <div class="col-lg-6 order-1 order-lg-2">
-          <img src="assets/img/about.jpg" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-6 order-2 order-lg-1 content">
-          <h3>Voluptatem dignissimos provident</h3>
-          <p class="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <ul>
-            <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-            <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-            <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-          </ul>
-          <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-          </p>
-        </div>
+<!-- About Section -->
+<section id="about" class="about section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col-lg-6 order-1 order-lg-2">
+        <img src="assets/img/about.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-6 order-2 order-lg-1 content">
+        <h3>BrillionEx About Us</h3>
+        <p class="fst-italic">
+          Leveraging decades of financial expertise, we partner with premier institutions to drive optimal outcomes and empower your success.
+        </p>
+        <ul>
+          <li><i class="bi bi-check2-all"></i> <span>Delivering robust, results-driven financial strategies that empower our clients.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Ensuring transparency and excellence in every engagement.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Innovating continuously to meet evolving financial needs while maintaining a commitment to personalized service and integrity.</span></li>
+        </ul>
+        <p>
+          Our firm combines industry-leading expertise with a bespoke approach to financial management, ensuring that every solution is tailored to the unique needs of our clients while upholding the highest standards of professionalism.
+        </p>
       </div>
     </div>
-  </section>
-  <!-- /About Section -->
+  </div>
+</section>
+
 
   <!-- Clients Section -->
   <section id="clients" class="clients section">
