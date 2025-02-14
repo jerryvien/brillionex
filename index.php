@@ -1,87 +1,86 @@
 <?php include 'header.php'; ?>
 
-<!-- Main Content with Dark Theme -->
-<main class="main" style="background-color: #1a1a1a; color: #fff;">
-  <!-- Hero Section -->
-  <section id="hero" class="hero section dark-background">
-    <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-    <div class="container">
-      <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-        <div class="col-xl-6 col-lg-8">
-          <!-- Updated Title and Subheading -->
-          <h2>BrillionEx: Strategic Finance<span>.</span></h2>
-          <p>Strategy | Finance | Success</p>
+<!-- Main Content -->
+<main class="main">
+<!-- Hero Section -->
+<section id="hero" class="hero section dark-background">
+  <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+  <div class="container">
+    <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-xl-6 col-lg-8">
+        <!-- Updated Title and Subheading -->
+        <h2>BrillionEx: Strategic Finance<span>.</span></h2>
+        <p>Strategy | Finance | Success</p>
+      </div>
+    </div>
+    <!-- Service Icons Section with Two-Word Titles -->
+    <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <!-- Service 1: Personal Finance -->
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon-box">
+          <i class="bi bi-currency-dollar"></i>
+          <h3><a href="">Personal Finance</a></h3>
         </div>
       </div>
-      <!-- Service Icons Section with Two-Word Titles -->
-      <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
-        <!-- Service 1: Personal Finance -->
-        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
-          <div class="icon-box">
-            <i class="bi bi-currency-dollar"></i>
-            <h3><a href="" style="color: #fff;">Personal Finance</a></h3>
-          </div>
+      <!-- Service 2: Debt Consolidation -->
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="icon-box">
+          <i class="bi bi-cash-stack"></i>
+          <h3><a href="">Debt Consolidation</a></h3>
         </div>
-        <!-- Service 2: Debt Consolidation -->
-        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
-          <div class="icon-box">
-            <i class="bi bi-cash-stack"></i>
-            <h3><a href="" style="color: #fff;">Debt Consolidation</a></h3>
-          </div>
+      </div>
+      <!-- Service 3: Business Finance -->
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="icon-box">
+          <i class="bi bi-credit-card"></i>
+          <h3><a href="">Business Finance</a></h3>
         </div>
-        <!-- Service 3: Business Finance -->
-        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
-          <div class="icon-box">
-            <i class="bi bi-credit-card"></i>
-            <h3><a href="" style="color: #fff;">Business Finance</a></h3>
-          </div>
+      </div>
+      <!-- Service 4: Mortgage Refinance -->
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
+        <div class="icon-box">
+          <i class="bi bi-bar-chart-line"></i>
+          <h3><a href="">Mortgage Refinance</a></h3>
         </div>
-        <!-- Service 4: Mortgage Refinance -->
-        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
-          <div class="icon-box">
-            <i class="bi bi-bar-chart-line"></i>
-            <h3><a href="" style="color: #fff;">Mortgage Refinance</a></h3>
-          </div>
-        </div>
-        <!-- Service 5: Loan Specialist -->
-        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
-          <div class="icon-box">
-            <i class="bi bi-file-earmark-check"></i>
-            <h3><a href="" style="color: #fff;">Loan Specialist</a></h3>
-          </div>
+      </div>
+      <!-- Service 5: Loan Specialist -->
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
+        <div class="icon-box">
+          <i class="bi bi-file-earmark-check"></i>
+          <h3><a href="">Loan Specialist</a></h3>
         </div>
       </div>
     </div>
-  </section>
-  <!-- /Hero Section -->
-
-  <!-- About Section -->
-  <section id="about" class="about section">
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <div class="row gy-4">
-        <div class="col-lg-6 order-1 order-lg-2">
-          <img src="assets/img/about.jpg" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-6 order-2 order-lg-1 content">
-          <h3>BrillionEx About Us</h3>
-          <p class="fst-italic">
-            Leveraging decades of financial expertise, we partner with premier institutions to drive optimal outcomes and empower your success.
-          </p>
-          <ul>
-            <li><i class="bi bi-check2-all"></i> <span>Delivering robust, results-driven financial strategies that empower our clients.</span></li>
-            <li><i class="bi bi-check2-all"></i> <span>Ensuring transparency and excellence in every engagement.</span></li>
-            <li><i class="bi bi-check2-all"></i> <span>Innovating continuously to meet evolving financial needs while maintaining a commitment to personalized service and integrity.</span></li>
-          </ul>
-          <p>
-            Our firm combines industry-leading expertise with a bespoke approach to financial management, ensuring that every solution is tailored to the unique needs of our clients while upholding the highest standards of professionalism.
-          </p>
-        </div>
+  </div>
+</section>
+<!-- /Hero Section -->
+<!-- About Section -->
+<section id="about" class="about section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col-lg-6 order-1 order-lg-2">
+        <img src="assets/img/about.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-6 order-2 order-lg-1 content">
+        <h3>BrillionEx About Us</h3>
+        <p class="fst-italic">
+          Leveraging decades of financial expertise, we partner with premier institutions to drive optimal outcomes and empower your success.
+        </p>
+        <ul>
+          <li><i class="bi bi-check2-all"></i> <span>Delivering robust, results-driven financial strategies that empower our clients.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Ensuring transparency and excellence in every engagement.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Innovating continuously to meet evolving financial needs while maintaining a commitment to personalized service and integrity.</span></li>
+        </ul>
+        <p>
+          Our firm combines industry-leading expertise with a bespoke approach to financial management, ensuring that every solution is tailored to the unique needs of our clients while upholding the highest standards of professionalism.
+        </p>
       </div>
     </div>
-  </section>
-  <!-- /About Section -->
+  </div>
+</section>
+<!-- /About Section -->
 
-  <!-- Services Section -->
+<!-- Services Section -->
   <section id="services" class="services section">
     <div class="container section-title" data-aos="fade-up">
       <h2>Services</h2>
@@ -152,9 +151,9 @@
       </div>
     </div>
   </section>
-  <!-- /Services Section -->
+<!-- /Services Section -->
 
-  <!-- Call To Action Section -->
+<!-- Call To Action Section -->
   <section id="call-to-action" class="call-to-action section dark-background">
     <img src="assets/img/cta-bg.jpg" alt="">
     <div class="container">
@@ -169,9 +168,9 @@
       </div>
     </div>
   </section>
-  <!-- /Call To Action Section -->
+<!-- /Call To Action Section -->
 
-  <!-- Stats Section -->
+<!-- Stats Section -->
   <section id="stats" class="stats section">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row gy-4 align-items-center justify-content-between">
@@ -225,9 +224,10 @@
       </div>
     </div>
   </section>
-  <!-- /Stats Section -->
+<!-- /Stats Section -->
 
-  <!-- Testimonials Section -->
+
+<!-- Testimonials Section -->
   <section id="testimonials" class="testimonials section dark-background">
     <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -325,9 +325,9 @@
       </div>
     </div>
   </section>
-  <!-- /Testimonials Section -->
+<!-- /Testimonials Section -->
 
-  <!-- Team Section -->
+<!-- Team Section -->
   <section id="team" class="team section">
     <div class="container section-title" data-aos="fade-up">
       <h2>Team</h2>
@@ -392,9 +392,9 @@
       </div>
     </div>
   </section>
-  <!-- /Team Section -->
+<!-- /Team Section -->
 
-  <!-- Contact Section -->
+<!-- Contact Section -->
   <section id="contact" class="contact section">
     <div class="container section-title" data-aos="fade-up">
       <h2>Contact</h2>
@@ -403,7 +403,7 @@
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
         <iframe style="border:0; width: 100%; height: 270px;" 
-                src="https://www.google.com/maps/embed?key=YOUR_API_KEY&amp;q=Level+23A,+Menara+Allianz+Sentral,+203,+Jalan+Tun+Sambanthan,+Brickfields,+50470+Kuala+Lumpur" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.282535137082!2d101.68508894320591!3d3.141317359083744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3719d39e3f37%3A0x2da1a2d86c23f1c4!2sMenara%20Allianz%20Sentral!5e0!3m2!1sen!2smy!4v1676961268712!5m2!1sen!2smy" 
                 frameborder="0" 
                 allowfullscreen="" 
                 loading="lazy" 
@@ -460,7 +460,7 @@
       </div>
     </div>
   </section>
-  <!-- /Contact Section -->
+<!-- /Contact Section -->
 </main>
 
 <?php include 'footer.php'; ?>
