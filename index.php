@@ -89,7 +89,7 @@
       <p>Check our Services</p>
     </div>
     <div class="container">
-      <div class="row gy-4">
+      <div class="row gy-4 justify-content-center">
         <!-- Service 1: Personal Finance -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div class="service-item position-relative">
@@ -130,7 +130,7 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div class="service-item position-relative">
             <div class="icon">
-              <i class="ri-home-4-line"></i>
+              <i class="bi-home-4-line"></i>
             </div>
             <a href="service-details.php" class="stretched-link">
               <h3>Mortgage Refinance</h3>
@@ -164,7 +164,7 @@
           <div class="text-center">
             <h3>Transform Your Financial Future</h3>
             <p>Partner with BrillionEx to unlock tailored financial strategies and propel your success. Let’s secure a prosperous future together.</p>
-            <a class="cta-btn" href="https://api.whatsapp.com/send?phone=+60102899611&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services.">Get Started Now</a>
+            <a class="cta-btn" href="https://api.whatsapp.com/send?phone=60102899611&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services.">Get Started Now</a>
           </div>
         </div>
       </div>
