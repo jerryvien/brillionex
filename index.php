@@ -130,7 +130,7 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div class="service-item position-relative">
             <div class="icon">
-              <i class="bi-home-4-line"></i>
+              <i class="bi bi-house-door"></i>
             </div>
             <a href="service-details.php" class="stretched-link">
               <h3>Mortgage Refinance</h3>
