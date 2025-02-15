@@ -2,31 +2,26 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-// Set receiving email
 $receiving_email_address = 'info@brillionex.com';
 
-// Include the custom PHP Email Form library
 if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
     include($php_email_form);
 } else {
     die('Unable to load the "PHP Email Form" Library!');
 }
 
-// Ensure form is submitted via POST
+// For debugging, output the request method:
+// echo 'Request Method: ' . $_SERVER['REQUEST_METHOD'];
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name    = $_POST['name'] ?? '';
     $email   = $_POST['email'] ?? '';
     $subject = $_POST['subject'] ?? '';
     $message = $_POST['message'] ?? '';
 
-    // Basic validation (you can expand this)
-    if(empty($name) || empty($email) || empty($subject) || empty($message)) {
-        echo 'Please fill in all required fields.';
-        exit;
-    }
-
     $contact = new PHP_Email_Form;
-    $contact->ajax = true;
+    // Comment out AJAX behavior if it interferes with standard POST submission:
+    // $contact->ajax = true;
     
     $contact->to = $receiving_email_address;
     $contact->from_name = $name;
@@ -37,9 +32,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $contact->add_message($email, 'Email');
     $contact->add_message($message, 'Message', 10);
     
-    $result = $contact->send();
-    echo $result;
+    echo $contact->send();
 } else {
-    echo 'Invalid Request';
+    echo 'Invalid Request - Method is: ' . $_SERVER['REQUEST_METHOD'];
 }
 ?>
