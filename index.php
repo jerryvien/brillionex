@@ -439,58 +439,65 @@
           </div>
         </div>
         <div class="col-lg-8">
-          <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-            <div class="row gy-4">
-              <div class="col-md-6">
-                <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-              </div>
-              <div class="col-md-6 ">
-                <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-              </div>
-              <div class="col-md-12">
-                <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-              </div>
-              <div class="col-md-12">
-                <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-              </div>
-              <div class="col-md-12 text-center">
-                <div class="loading">Loading</div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-                <button type="submit">Send Message</button>
-                <!-- jQuery (if not already included) -->
-                  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                  <!-- Your custom script -->
-                  <script>
-                    $(document).ready(function() {
-                      $('.php-email-form').submit(function(e) {
-                        e.preventDefault();
-                        $('.loading').show();
-                        $('.error-message').hide();
-                        $('.sent-message').hide();
-                        
-                        $.post($(this).attr('action'), $(this).serialize(), function(response) {
-                          $('.loading').hide();
-                          if(response.trim() === 'Success') {
-                            $('.sent-message').show();
-                          } else {
-                            $('.error-message').html(response).show();
-                          }
-                        }).fail(function() {
-                          $('.loading').hide();
-                          $('.error-message').html('An error occurred while sending your message.').show();
-                        });
-                      });
-                    });
-                  </script>
-                
-              </div>
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
             </div>
-          </form>
+            <div class="col-md-6">
+              <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+            </div>
+            <div class="col-md-12">
+              <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+            </div>
+            <div class="col-md-12 text-center">
+              <!-- Loading, error, and success messages -->
+              <div class="loading" style="display: none;">Loading</div>
+              <div class="error-message" style="display: none; color: #dc3545;">An error occurred while sending your message.</div>
+              <div class="sent-message" style="display: none; color: #28a745;">Your message has been sent. Thank you!</div>
+              <button type="submit">Send Message</button>
+            </div>
+          </div>
+        </form>
+
         </div>
       </div>
     </div>
   </section>
 <!-- /Contact Section -->
+
+<!-- jQuery (if not already included) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.php-email-form').on('submit', function(e) {
+      e.preventDefault();
+      
+      // Hide previous messages and show loading
+      $('.sent-message, .error-message').hide();
+      $('.loading').show();
+      
+      $.post($(this).attr('action'), $(this).serialize())
+        .done(function(response) {
+          $('.loading').hide();
+          if($.trim(response) === 'Success') {
+            $('.sent-message').css('color', '#28a745').text('Your message has been sent. Thank you!').show();
+          } else {
+            $('.error-message').css('color', '#dc3545').text(response).show();
+          }
+        })
+        .fail(function() {
+          $('.loading').hide();
+          $('.error-message').css('color', '#dc3545').text('An error occurred while sending your message.').show();
+        });
+    });
+  });
+</script>
 </main>
 
 <?php include 'footer.php'; ?>
+
+
