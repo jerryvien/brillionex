@@ -2,27 +2,38 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-// Debug: Print the request method and POST data
-echo '<p>Request Method: ' . $_SERVER['REQUEST_METHOD'] . '</p>';
+$receiving_email_address = 'info@brillionex.com';
+
+if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
+    include($php_email_form);
+} else {
+    die('Unable to load the "PHP Email Form" Library!');
+}
+
+// For debugging, output the request method:
+// echo 'Request Method: ' . $_SERVER['REQUEST_METHOD'];
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    echo '<h3>POST Data Received:</h3>';
-    echo '<pre>';
-    print_r($_POST);
-    echo '</pre>';
+    $name    = $_POST['name'] ?? '';
+    $email   = $_POST['email'] ?? '';
+    $subject = $_POST['subject'] ?? '';
+    $message = $_POST['message'] ?? '';
+
+    $contact = new PHP_Email_Form;
+    // Comment out AJAX behavior if it interferes with standard POST submission:
+    // $contact->ajax = true;
     
-    // Prepare a simple test email using PHP's mail() function
-    $to = 'info@brillionex.com';
-    $subject = 'Test Email from Contact Form';
-    $message = 'This is a test email. The following POST data was received:' . "\n\n" . print_r($_POST, true);
-    $headers = "From: webmaster@brillionex.com\r\n";
+    $contact->to = $receiving_email_address;
+    $contact->from_name = $name;
+    $contact->from_email = $email;
+    $contact->subject = $subject;
     
-    if (mail($to, $subject, $message, $headers)) {
-        echo '<p style="color: green;">Test email sent successfully.</p>';
-    } else {
-        echo '<p style="color: red;">Test email failed.</p>';
-    }
+    $contact->add_message($name, 'From');
+    $contact->add_message($email, 'Email');
+    $contact->add_message($message, 'Message', 10);
+    
+    echo $contact->send();
 } else {
-    echo '<p style="color: red;">Invalid Request. This page only accepts POST submissions.</p>';
+    echo 'Invalid Request - Method is: ' . $_SERVER['REQUEST_METHOD'];
 }
 ?>
