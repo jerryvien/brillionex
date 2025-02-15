@@ -1,15 +1,17 @@
 <?php include 'header.php'; ?>
 
-<main class="main" style="background-color: #f8f9fa; color: #212529; padding-top: 120px;">
-  <!-- Page Intro -->
-  <section class="section" data-aos="fade-up" data-aos-delay="100">
-    <div class="container text-center">
-      <h1 style="color: #f9df7b; font-size: 2.5rem;">About BrillionEx</h1>
-      <p style="max-width: 700px; margin: 0 auto;">
+<main class="main" style="background-color: #f8f9fa; color: #212529;">
+  <!-- Banner Section -->
+  <section id="banner" style="background: url('assets/img/about-banner.jpg') center/cover no-repeat; padding: 120px 0; position: relative;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(33,37,41,0.6);"></div>
+    <div class="container" data-aos="fade-up" style="position: relative; z-index: 2; text-align: center;">
+      <h1 style="color: #fff; font-size: 2.5rem; margin-bottom: 20px;">About BrillionEx</h1>
+      <p style="color: #f8f9fa; max-width: 700px; margin: 0 auto;">
         Discover who we are, what we stand for, and how we can help you achieve lasting financial success.
       </p>
     </div>
   </section>
+  <!-- /Banner Section -->
 
   <!-- General Company Background -->
   <section id="company-background" class="section" style="padding: 60px 0;">
@@ -30,9 +32,10 @@
       </div>
     </div>
   </section>
+  <!-- /General Company Background -->
 
-  <!-- Vision & Mission -->
-  <section id="vision-mission" class="section" style="padding: 60px 0;">
+  <!-- Vision & Mission Section with BG for Contrast -->
+  <section id="vision-mission" class="section" style="padding: 60px 0; background-color: #e9ecef;">
     <div class="container" data-aos="fade-up">
       <div class="row gy-4">
         <!-- Vision -->
@@ -42,7 +45,7 @@
               <i class="ri-eye-line" style="font-size: 2rem; color: #f9df7b;"></i>
               <h3 style="color: #212529; margin-top: 15px;">Our Vision</h3>
             </div>
-            <p style="margin-top: 10px; color: #6c757d;">
+            <p style="margin-top: 10px; color: #212529;">
               To lead in strategic financial solutions, empowering our clients to achieve enduring success.
             </p>
             <p class="slogan" style="color: #f9df7b; margin-bottom: 0;">Strategy | Finance | Success</p>
@@ -55,7 +58,7 @@
               <i class="ri-rocket-line" style="font-size: 2rem; color: #f9df7b;"></i>
               <h3 style="color: #212529; margin-top: 15px;">Our Mission</h3>
             </div>
-            <p style="margin-top: 10px; color: #6c757d;">
+            <p style="margin-top: 10px; color: #212529;">
               To deliver innovative, tailored financial strategies that fuel growth, mitigate risk, and enhance value.
             </p>
             <p class="slogan" style="color: #f9df7b; margin-bottom: 0;">Strategy | Finance | Success</p>
@@ -64,35 +67,20 @@
       </div>
     </div>
   </section>
+  <!-- /Vision & Mission -->
 
-  <!-- Strategic Goal -->
+  <!-- Strategic Goal Section (Centered) -->
   <section id="strategic-goal" class="section" style="padding: 60px 0;">
     <div class="container" data-aos="fade-up">
       <h2 class="text-center" style="color: #f9df7b; margin-bottom: 20px;">Our Strategic Goal</h2>
       <p class="text-center" style="max-width: 800px; margin: 0 auto; color: #6c757d;">
-        By integrating cutting-edge financial practices with personalized insights, we aim to bridge the gap between our vision and your success. Each solution is crafted to propel you toward sustained financial growth and stability, ensuring you remain on the path to long-term prosperity.
+        By integrating cutting-edge financial practices with personalized insights, we bridge the gap between our vision and your success—driving sustainable growth and long-term stability.
       </p>
     </div>
   </section>
+  <!-- /Strategic Goal -->
 
-  <!-- Call To Action Section -->
-  <section id="strategic-goal" class="call-to-action section dark-background">
-    <img src="assets/img/cta-bg.jpg" alt="">
-    <div class="container">
-      <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-        <div class="col-xl-10">
-          <div class="text-center">
-            <h3>Our Strategic Goal</h3>
-            <p>By integrating cutting-edge financial practices with personalized insights, we aim to bridge the gap between our vision and your success. Each solution is crafted to propel you toward sustained financial growth and stability, ensuring you remain on the path to long-term prosperity.</p>
-            <a class="cta-btn" href="https://api.whatsapp.com/send?phone=60102899611&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services.">Get Started Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-<!-- /Call To Action Section -->
-
-  <!-- Commitment (2x2 Grid) -->
+  <!-- Commitment Section (2x2 Grid) -->
   <section id="commitment" class="section" style="padding: 60px 0;">
     <div class="container" data-aos="fade-up">
       <!-- Title Row -->
@@ -145,9 +133,10 @@
       </div>
     </div>
   </section>
+  <!-- /Commitment -->
 
   <!-- CTA: Need Our Assistance? -->
-  <section id="cta-assistance" class="section" style="padding: 60px 0;">
+  <section id="cta-assistance" class="section" style="padding: 60px 0; background-color: #e9ecef;">
     <div class="container" data-aos="fade-up">
       <div class="row justify-content-center">
         <div class="col-xl-10 text-center">
@@ -160,6 +149,7 @@
       </div>
     </div>
   </section>
+  <!-- /CTA -->
 </main>
 
 <!-- Include AOS Library -->
