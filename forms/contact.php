@@ -1,20 +1,29 @@
 <?php
-  $receiving_email_address = 'info@brillionex.com';
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
-  }
+// Set receiving email
+$receiving_email_address = 'info@brillionex.com';
 
-  // Check if form is submitted using POST
-  if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+// Include the custom PHP Email Form library
+if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
+    include($php_email_form);
+} else {
+    die('Unable to load the "PHP Email Form" Library!');
+}
 
-    // Use null coalescing operator to prevent undefined index warnings
+// Ensure form is submitted via POST
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name    = $_POST['name'] ?? '';
     $email   = $_POST['email'] ?? '';
     $subject = $_POST['subject'] ?? '';
     $message = $_POST['message'] ?? '';
+
+    // Basic validation (you can expand this)
+    if(empty($name) || empty($email) || empty($subject) || empty($message)) {
+        echo 'Please fill in all required fields.';
+        exit;
+    }
 
     $contact = new PHP_Email_Form;
     $contact->ajax = true;
@@ -24,12 +33,13 @@
     $contact->from_email = $email;
     $contact->subject = $subject;
     
-    $contact->add_message( $name, 'From');
-    $contact->add_message( $email, 'Email');
-    $contact->add_message( $message, 'Message', 10);
+    $contact->add_message($name, 'From');
+    $contact->add_message($email, 'Email');
+    $contact->add_message($message, 'Message', 10);
     
-    echo $contact->send();
-  } else {
+    $result = $contact->send();
+    echo $result;
+} else {
     echo 'Invalid Request';
-  }
+}
 ?>
