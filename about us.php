@@ -35,39 +35,36 @@
   <!-- /General Company Background -->
 
   <!-- Vision & Mission Section with BG for Contrast -->
-  <section id="vision-mission" class="section" style="padding: 60px 0; background-color: #e9ecef;">
+    <section id="vision-mission" class="section" style="padding: 60px 0; background-color: #e9ecef;">
     <div class="container" data-aos="fade-up">
-      <div class="row gy-4">
+        <div class="row gy-4">
         <!-- Vision -->
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="p-4" style="background-color: #ffffff; border: 2px solid #f9df7b; border-radius: 8px;">
-            <div class="text-center">
-              <i class="ri-eye-line" style="font-size: 2rem; color: #f9df7b;"></i>
-              <h3 style="color: #212529; margin-top: 15px;">Our Vision</h3>
-            </div>
+            <div class="p-4 text-center" style="background-color: #ffffff; border: 2px solid #f9df7b; border-radius: 8px;">
+            <i class="ri-eye-line" style="font-size: 2rem; color: #f9df7b;"></i>
+            <h3 style="color: #212529; margin-top: 15px;">Our Vision</h3>
             <p style="margin-top: 10px; color: #212529;">
-              To lead in strategic financial solutions, empowering our clients to achieve enduring success.
+                To lead in strategic financial solutions, empowering our clients to achieve enduring success.
             </p>
             <p class="slogan" style="color: #f9df7b; margin-bottom: 0;">Strategy | Finance | Success</p>
-          </div>
+            </div>
         </div>
         <!-- Mission -->
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-          <div class="p-4" style="background-color: #ffffff; border: 2px solid #f9df7b; border-radius: 8px;">
-            <div class="text-center">
-              <i class="ri-rocket-line" style="font-size: 2rem; color: #f9df7b;"></i>
-              <h3 style="color: #212529; margin-top: 15px;">Our Mission</h3>
-            </div>
+            <div class="p-4 text-center" style="background-color: #ffffff; border: 2px solid #f9df7b; border-radius: 8px;">
+            <i class="ri-rocket-line" style="font-size: 2rem; color: #f9df7b;"></i>
+            <h3 style="color: #212529; margin-top: 15px;">Our Mission</h3>
             <p style="margin-top: 10px; color: #212529;">
-              To deliver innovative, tailored financial strategies that fuel growth, mitigate risk, and enhance value.
+                To deliver innovative, tailored financial strategies that fuel growth, mitigate risk, and enhance value.
             </p>
             <p class="slogan" style="color: #f9df7b; margin-bottom: 0;">Strategy | Finance | Success</p>
-          </div>
+            </div>
         </div>
-      </div>
+        </div>
     </div>
-  </section>
-  <!-- /Vision & Mission -->
+    </section>
+<!-- /Vision & Mission -->
+
 
 <!-- Call To Action Section -->
   <section id="call-to-action" class="call-to-action section dark-background">
