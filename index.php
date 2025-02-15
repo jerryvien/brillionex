@@ -458,6 +458,32 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
                 <button type="submit">Send Message</button>
+                <!-- jQuery (if not already included) -->
+                  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                  <!-- Your custom script -->
+                  <script>
+                    $(document).ready(function() {
+                      $('.php-email-form').submit(function(e) {
+                        e.preventDefault();
+                        $('.loading').show();
+                        $('.error-message').hide();
+                        $('.sent-message').hide();
+                        
+                        $.post($(this).attr('action'), $(this).serialize(), function(response) {
+                          $('.loading').hide();
+                          if(response.trim() === 'Success') {
+                            $('.sent-message').show();
+                          } else {
+                            $('.error-message').html(response).show();
+                          }
+                        }).fail(function() {
+                          $('.loading').hide();
+                          $('.error-message').html('An error occurred while sending your message.').show();
+                        });
+                      });
+                    });
+                  </script>
+                
               </div>
             </div>
           </form>
