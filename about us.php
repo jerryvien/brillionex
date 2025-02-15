@@ -2,7 +2,7 @@
 
 <main class="main" style="background-color: #f8f9fa; color: #212529;">
   <!-- Banner Section -->
-  <section id="banner" style="background: url('assets/img/about-banner.jpg') center/cover no-repeat; padding: 120px 0; position: relative;">
+  <section id="banner" style="background: url('assets/img/banner.jpg') center/cover no-repeat; padding: 120px 0; position: relative;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(33,37,41,0.6);"></div>
     <div class="container" data-aos="fade-up" style="position: relative; z-index: 2; text-align: center;">
       <h1 style="color: #fff; font-size: 2.5rem; margin-bottom: 20px;">About BrillionEx</h1>
@@ -27,7 +27,7 @@
           </p>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 text-center">
-          <img src="assets/img/team/team-group.jpg" class="img-fluid" alt="Team Photo">
+          <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="Team Photo">
         </div>
       </div>
     </div>
