@@ -49,7 +49,7 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-      <a class="btn-getstarted" href="https://api.whatsapp.com/send?phone=+60102899611&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank">
+      <a class="btn-getstarted" href="https://api.whatsapp.com/send?phone=60102899611&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank">
         <i class="fab fa-whatsapp"></i> WhatsApp Us
       </a>
     </div>
