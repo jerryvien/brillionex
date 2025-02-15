@@ -1,0 +1,12 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Redirect any request for index.php to the domain root
+RewriteCond %{THE_REQUEST} /index\.php [NC]
+RewriteRule ^index\.php$ / [L,R=301]
+
+# Internally rewrite extensionless URLs to .php files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
