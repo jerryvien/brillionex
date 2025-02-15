@@ -1,17 +1,19 @@
 <?php include 'header.php'; ?>
 
 <main class="main" style="background-color: #f8f9fa; color: #212529;">
-  <!-- Banner Section -->
-  <section id="banner" style="background: url('assets/img/banner.jpg') center/cover no-repeat; padding: 120px 0; position: relative;">
+    <!-- Banner Section -->
+    <section id="banner" style="background: url('assets/img/banner.jpg') center/cover no-repeat; height: 50vh; position: relative;">
+    <!-- Semi-transparent overlay -->
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(33,37,41,0.6);"></div>
-    <div class="container" data-aos="fade-up" style="position: relative; z-index: 2; text-align: center;">
-      <h1 style="color: #fff; font-size: 2.5rem; margin-bottom: 20px;">About BrillionEx</h1>
-      <p style="color: #f8f9fa; max-width: 700px; margin: 0 auto;">
+    <!-- Centered Text Container -->
+    <div class="container" data-aos="fade-up" style="position: relative; z-index: 2; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 100%;">
+        <h1 style="color: #fff; font-size: 2.5rem; margin-bottom: 20px;">About BrillionEx</h1>
+        <p style="color: #f8f9fa; max-width: 700px; margin: 0 auto;">
         Discover who we are, what we stand for, and how we can help you achieve lasting financial success.
-      </p>
+        </p>
     </div>
-  </section>
-  <!-- /Banner Section -->
+    </section>
+    <!-- /Banner Section -->
 
   <!-- General Company Background -->
   <section id="company-background" class="section" style="padding: 60px 0;">
@@ -85,70 +87,84 @@
   </section>
 <!-- /Call To Action Section -->
 
-<!-- Our Commitment Section (1x4 grid with hover effect) -->
+<!-- Our Commitment Section (1x4 grid with equal sized boxes and icons) -->
 <section id="commitment" class="section" style="padding: 60px 0;">
   <div class="container" data-aos="fade-up">
     <!-- Section Title -->
     <div class="row justify-content-center mb-4">
       <div class="col-12 text-center">
         <h2 style="color: #f9df7b;">Our Commitment</h2>
-        <p style="color: #6c757d;">Our promise: Holistic, innovative, collaborative, and ethical financial solutions.</p>
+        <p style="color: #6c757d;">
+          Our promise: Holistic, Innovative, Collaborative, and Ethical financial solutions.
+        </p>
       </div>
     </div>
-    <!-- Commitment Boxes: 1x4 layout on larger screens -->
+    <!-- Commitment Boxes -->
     <div class="row justify-content-center">
       <!-- Commitment Box 1: Comprehensiveness -->
       <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="commitment-box" style="background-color: #ffffff; border: 2px solid #f9df7b; border-radius: 8px; padding: 20px; transition: transform 0.3s;">
-          <div class="text-center">
+        <div class="commitment-box">
+          <div class="icon text-center">
             <i class="ri-check-double-line" style="font-size: 2rem; color: #f9df7b;"></i>
-            <h4 style="color: #212529; margin-top: 15px;">Comprehensiveness</h4>
           </div>
-          <p style="color: #6c757d; text-align: center;">Holistic solutions that address every need.</p>
+          <h4 class="text-center" style="color: #212529; margin-top: 15px;">Comprehensiveness</h4>
+          <p class="text-center" style="color: #6c757d;">Holistic solutions that address every need.</p>
         </div>
       </div>
       <!-- Commitment Box 2: Innovation -->
       <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-        <div class="commitment-box" style="background-color: #ffffff; border: 2px solid #f9df7b; border-radius: 8px; padding: 20px; transition: transform 0.3s;">
-          <div class="text-center">
+        <div class="commitment-box">
+          <div class="icon text-center">
             <i class="ri-lightbulb-line" style="font-size: 2rem; color: #f9df7b;"></i>
-            <h4 style="color: #212529; margin-top: 15px;">Innovation</h4>
           </div>
-          <p style="color: #6c757d; text-align: center;">Creative strategies powered by forward-thinking insights.</p>
+          <h4 class="text-center" style="color: #212529; margin-top: 15px;">Innovation</h4>
+          <p class="text-center" style="color: #6c757d;">Creative strategies with forward-thinking insights.</p>
         </div>
       </div>
       <!-- Commitment Box 3: Partnership -->
       <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="commitment-box" style="background-color: #ffffff; border: 2px solid #f9df7b; border-radius: 8px; padding: 20px; transition: transform 0.3s;">
-          <div class="text-center">
+        <div class="commitment-box">
+          <div class="icon text-center">
             <i class="ri-team-line" style="font-size: 2rem; color: #f9df7b;"></i>
-            <h4 style="color: #212529; margin-top: 15px;">Partnership</h4>
           </div>
-          <p style="color: #6c757d; text-align: center;">Collaborative alliances built on trust.</p>
+          <h4 class="text-center" style="color: #212529; margin-top: 15px;">Partnership</h4>
+          <p class="text-center" style="color: #6c757d;">Building enduring alliances through trust.</p>
         </div>
       </div>
       <!-- Commitment Box 4: Integrity -->
       <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-        <div class="commitment-box" style="background-color: #ffffff; border: 2px solid #f9df7b; border-radius: 8px; padding: 20px; transition: transform 0.3s;">
-          <div class="text-center">
+        <div class="commitment-box">
+          <div class="icon text-center">
             <i class="ri-shield-check-line" style="font-size: 2rem; color: #f9df7b;"></i>
-            <h4 style="color: #212529; margin-top: 15px;">Integrity</h4>
           </div>
-          <p style="color: #6c757d; text-align: center;">Uncompromising ethics in every action we take.</p>
+          <h4 class="text-center" style="color: #212529; margin-top: 15px;">Integrity</h4>
+          <p class="text-center" style="color: #6c757d;">Uncompromising ethics in every action we take.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Hover effect for commitment boxes -->
+<!-- Commitment Box CSS -->
 <style>
+  .commitment-box {
+    background-color: #ffffff;
+    border: 2px solid #f9df7b;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    min-height: 250px; /* Ensures all boxes are equal in height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .commitment-box:hover {
     transform: scale(1.05);
   }
 </style>
 <!-- /Our Commitment Section -->
- 
+
 </main>
 
 <!-- Include AOS Library -->
