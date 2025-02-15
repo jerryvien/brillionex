@@ -76,7 +76,7 @@
         <p>
           Our firm combines industry-leading expertise with a bespoke approach to financial management, ensuring that every solution is tailored to the unique needs of our clients while upholding the highest standards of professionalism.
         </p>
-        <a href="about us.php" class="btn-getstarted">Know us more</a>
+        <a href="about us.php" class="cta-btn">Know us more</a>
       </div>
     </div>
   </div>
