@@ -69,18 +69,23 @@
   </section>
   <!-- /Vision & Mission -->
 
-  <!-- Strategic Goal Section (Centered) -->
-  <section id="strategic-goal" class="section" style="padding: 60px 0;">
-    <div class="container" data-aos="fade-up">
-      <h2 class="text-center" style="color: #f9df7b; margin-bottom: 20px;">Our Strategic Goal</h2>
-      <p class="text-center" style="max-width: 800px; margin: 0 auto; color: #6c757d;">
-        By integrating cutting-edge financial practices with personalized insights, we bridge the gap between our vision and your success—driving sustainable growth and long-term stability.
-      </p>
+<!-- Call To Action Section -->
+  <section id="call-to-action" class="call-to-action section dark-background">
+    <img src="assets/img/cta-bg.jpg" alt="">
+    <div class="container">
+      <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-xl-10">
+          <div class="text-center">
+            <h3>Our Strategic Goal</h3>
+            <p>By integrating cutting-edge financial practices with personalized insights, we bridge the gap between our vision and your success—driving sustainable growth and long-term stability.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <!-- /Strategic Goal -->
+<!-- /Call To Action Section -->
 
-  <!-- Commitment Section (2x2 Grid) -->
+<!-- Commitment Section (2x2 Grid) -->
   <section id="commitment" class="section" style="padding: 60px 0;">
     <div class="container" data-aos="fade-up">
       <!-- Title Row -->
@@ -133,23 +138,7 @@
       </div>
     </div>
   </section>
-  <!-- /Commitment -->
-
-  <!-- CTA: Need Our Assistance? -->
-  <section id="cta-assistance" class="section" style="padding: 60px 0; background-color: #e9ecef;">
-    <div class="container" data-aos="fade-up">
-      <div class="row justify-content-center">
-        <div class="col-xl-10 text-center">
-          <h3 style="color: #f9df7b;">Need Our Assistance?</h3>
-          <p style="max-width: 800px; margin: 0 auto; color: #6c757d;">
-            Discover how our expert financial solutions can help you navigate your financial journey with confidence.
-          </p>
-          <a class="cta-btn" href="services.php" style="margin-top: 20px; display: inline-block;">View Our Services</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /CTA -->
+<!-- /Commitment -->
 </main>
 
 <!-- Include AOS Library -->
