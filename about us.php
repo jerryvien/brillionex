@@ -1,19 +1,17 @@
 <?php include 'header.php'; ?>
 
 <main class="main" style="background-color: #f8f9fa; color: #212529;">
-    <!-- Banner Section -->
-    <section id="banner" style="background: url('assets/img/banner.jpg') center/cover no-repeat; height: 50vh; position: relative;">
-    <!-- Semi-transparent overlay -->
+  <!-- Banner Section -->
+  <section id="banner" style="background: url('assets/img/banner.jpg') center/cover no-repeat; padding: 120px 0; position: relative;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(33,37,41,0.6);"></div>
-    <!-- Centered Text Container -->
-    <div class="container" data-aos="fade-up" style="position: relative; z-index: 2; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 100%;">
-        <h1 style="color: #fff; font-size: 2.5rem; margin-bottom: 20px;">About BrillionEx</h1>
-        <p style="color: #f8f9fa; max-width: 700px; margin: 0 auto;">
+    <div class="container" data-aos="fade-up" style="position: relative; z-index: 2; text-align: center;">
+      <h1 style="color: #fff; font-size: 2.5rem; margin-bottom: 20px;">About BrillionEx</h1>
+      <p style="color: #f8f9fa; max-width: 700px; margin: 0 auto;">
         Discover who we are, what we stand for, and how we can help you achieve lasting financial success.
-        </p>
+      </p>
     </div>
-    </section>
-    <!-- /Banner Section -->
+  </section>
+  <!-- /Banner Section -->
 
   <!-- General Company Background -->
   <section id="company-background" class="section" style="padding: 60px 0;">
