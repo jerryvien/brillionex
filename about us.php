@@ -75,6 +75,23 @@
     </div>
   </section>
 
+  <!-- Call To Action Section -->
+  <section id="strategic-goal" class="call-to-action section dark-background">
+    <img src="assets/img/cta-bg.jpg" alt="">
+    <div class="container">
+      <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-xl-10">
+          <div class="text-center">
+            <h3>Our Strategic Goal</h3>
+            <p>By integrating cutting-edge financial practices with personalized insights, we aim to bridge the gap between our vision and your success. Each solution is crafted to propel you toward sustained financial growth and stability, ensuring you remain on the path to long-term prosperity.</p>
+            <a class="cta-btn" href="https://api.whatsapp.com/send?phone=60102899611&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services.">Get Started Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /Call To Action Section -->
+
   <!-- Commitment (2x2 Grid) -->
   <section id="commitment" class="section" style="padding: 60px 0;">
     <div class="container" data-aos="fade-up">
