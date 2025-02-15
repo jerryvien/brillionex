@@ -80,5 +80,33 @@
 <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 <!-- Main JS File -->
 <script src="assets/js/main.js"></script>
+<!-- Floating WhatsApp Button -->
+<style>
+  .whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .whatsapp-float:hover {
+    background-color: #128C7E;
+  }
+  .whatsapp-float i {
+    margin-top: 16px;
+  }
+</style>
+
+<a href="https://api.whatsapp.com/send?phone=+60123456789&text=Hello, I would like to inquire about your services." class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
 </body>
 </html>
