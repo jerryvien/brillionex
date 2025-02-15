@@ -32,9 +32,9 @@
       </a>
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
+          <li><a href="index.php#hero" class="active">Home</a></li>
+          <li><a href="about us.php">About</a></li>
+          <li><a href="index.php#services">Services</a></li>
           <li><a href="index.php#team">Team</a></li>
           <li class="dropdown">
             <a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -42,10 +42,10 @@
               <li><a href="#">News</a></li>
               <li><a href="#">Events</a></li>
               <li><a href="#">Careers</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="index.php#contact">Contact</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.php#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>

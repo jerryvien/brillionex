@@ -21,11 +21,9 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.php#home">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="about us.php">About</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.php#services">Services</a></li>
           </ul>
         </div>
         <div class="col-lg-2 col-md-3 footer-links">
@@ -57,9 +55,6 @@
   <div class="copyright">
     <div class="container text-center">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">BrillionEx</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
     </div>
   </div>
 </footer>
