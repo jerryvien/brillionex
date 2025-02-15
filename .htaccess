@@ -2,6 +2,9 @@ DirectoryIndex index.php
 
 RewriteEngine On
 
+# Replace any encoded space (%20) with a hyphen (-)
+RewriteRule ^(.*)%20(.*)$ $1-$2 [R=301,L]
+
 # Redirect requests for index.php to the root URL
 RewriteCond %{THE_REQUEST} /index\.php [NC]
 RewriteRule ^index\.php$ / [L,R=301]

@@ -22,7 +22,7 @@
           <h4>Useful Links</h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="index.php#home">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="about us.php">About</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="about-us.php">About</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="index.php#services">Services</a></li>
           </ul>
         </div>
