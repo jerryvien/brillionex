@@ -20,8 +20,6 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
@@ -51,6 +49,8 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" href="https://api.whatsapp.com/send?phone=+60123456789&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp Us
+      </a>
     </div>
   </header>
