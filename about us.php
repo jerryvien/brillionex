@@ -27,7 +27,7 @@
           </p>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 text-center">
-          <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="Team Photo">
+          <img src="assets/img/team/team.jpg" class="img-fluid" alt="Team Photo">
         </div>
       </div>
     </div>
