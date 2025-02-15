@@ -76,9 +76,10 @@
         <p>
           Our firm combines industry-leading expertise with a bespoke approach to financial management, ensuring that every solution is tailored to the unique needs of our clients while upholding the highest standards of professionalism.
         </p>
-        
+        <a class="btn-getstarted" href="https://api.whatsapp.com/send?phone=60102899611&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank">
+          <i class="fab fa-whatsapp"></i> WhatsApp Us
+        </a>
       </div>
-      <a class="cta-btn" href="https://api.whatsapp.com/send?phone=60102899611&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services.">Get Started Now</a>
     </div>
   </div>
 </section>
