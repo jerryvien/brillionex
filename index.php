@@ -41,14 +41,14 @@
         <!-- Service 4: Mortgage Refinance -->
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
           <div class="icon-box">
-            <i class="bi bi-bar-chart-line"></i>
+            <i class="bi bi-house-door"></i>
             <h3><a href="">Mortgage Refinance</a></h3>
           </div>
         </div>
         <!-- Service 5: Loan Specialist -->
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
           <div class="icon-box">
-            <i class="bi bi-file-earmark-check"></i>
+            <i class="bi bi-person-check"></i>
             <h3><a href="">Loan Specialist</a></h3>
           </div>
         </div>
