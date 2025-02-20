@@ -5,84 +5,84 @@
 <!-- Main Content -->
 <main class="main">
 <!-- Hero Section -->
-<section id="hero" class="hero section dark-background">
-  <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-  <div class="container">
-    <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-      <div class="col-xl-6 col-lg-8">
-        <!-- Updated Title and Subheading -->
-        <h2>BrillionEx: Strategic Finance<span>.</span></h2>
-        <p>Strategy | Finance | Success</p>
+  <section id="hero" class="hero section dark-background">
+    <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+    <div class="container">
+      <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-xl-6 col-lg-8">
+          <!-- Updated Title and Subheading -->
+          <h2>BrillionEx: Strategic Finance<span>.</span></h2>
+          <p>Strategy | Finance | Success</p>
+        </div>
+      </div>
+      <!-- Service Icons Section with Two-Word Titles -->
+      <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        <!-- Service 1: Personal Finance -->
+        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon-box">
+            <i class="bi bi-currency-dollar"></i>
+            <h3><a href="">Personal Finance</a></h3>
+          </div>
+        </div>
+        <!-- Service 2: Debt Consolidation -->
+        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="icon-box">
+            <i class="bi bi-cash-stack"></i>
+            <h3><a href="">Debt Consolidation</a></h3>
+          </div>
+        </div>
+        <!-- Service 3: Business Finance -->
+        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="icon-box">
+            <i class="bi bi-credit-card"></i>
+            <h3><a href="">Business Finance</a></h3>
+          </div>
+        </div>
+        <!-- Service 4: Mortgage Refinance -->
+        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="icon-box">
+            <i class="bi bi-bar-chart-line"></i>
+            <h3><a href="">Mortgage Refinance</a></h3>
+          </div>
+        </div>
+        <!-- Service 5: Loan Specialist -->
+        <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
+          <div class="icon-box">
+            <i class="bi bi-file-earmark-check"></i>
+            <h3><a href="">Loan Specialist</a></h3>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- Service Icons Section with Two-Word Titles -->
-    <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
-      <!-- Service 1: Personal Finance -->
-      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="icon-box">
-          <i class="bi bi-currency-dollar"></i>
-          <h3><a href="">Personal Finance</a></h3>
-        </div>
-      </div>
-      <!-- Service 2: Debt Consolidation -->
-      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
-        <div class="icon-box">
-          <i class="bi bi-cash-stack"></i>
-          <h3><a href="">Debt Consolidation</a></h3>
-        </div>
-      </div>
-      <!-- Service 3: Business Finance -->
-      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
-        <div class="icon-box">
-          <i class="bi bi-credit-card"></i>
-          <h3><a href="">Business Finance</a></h3>
-        </div>
-      </div>
-      <!-- Service 4: Mortgage Refinance -->
-      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
-        <div class="icon-box">
-          <i class="bi bi-bar-chart-line"></i>
-          <h3><a href="">Mortgage Refinance</a></h3>
-        </div>
-      </div>
-      <!-- Service 5: Loan Specialist -->
-      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
-        <div class="icon-box">
-          <i class="bi bi-file-earmark-check"></i>
-          <h3><a href="">Loan Specialist</a></h3>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 <!-- /Hero Section -->
 <!-- About Section -->
-<section id="about" class="about section">
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row gy-4">
-      <div class="col-lg-6 order-1 order-lg-2">
-        <img src="assets/img/about.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col-lg-6 order-2 order-lg-1 content">
-        <h3>BrillionEx About Us</h3>
-        <p class="fst-italic">
-          Leveraging decades of financial expertise, we partner with premier institutions to drive optimal outcomes and empower your success.
-        </p>
-        <ul>
-          <li><i class="bi bi-check2-all"></i> <span>Delivering robust, results-driven financial strategies that empower our clients.</span></li>
-          <li><i class="bi bi-check2-all"></i> <span>Ensuring transparency and excellence in every engagement.</span></li>
-          <li><i class="bi bi-check2-all"></i> <span>Innovating continuously to meet evolving financial needs while maintaining a commitment to personalized service and integrity.</span></li>
-        </ul>
-        <p>
-          Our firm combines industry-leading expertise with a bespoke approach to financial management, ensuring that every solution is tailored to the unique needs of our clients while upholding the highest standards of professionalism.
-        </p>
-        <a class="btn-getstarted" href="https://api.whatsapp.com/send?phone=60102899611&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank">
-          <i class="fab fa-whatsapp"></i> WhatsApp Us
-        </a>
+  <section id="about" class="about section">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="assets/img/about.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 order-2 order-lg-1 content">
+          <h3>BrillionEx About Us</h3>
+          <p class="fst-italic">
+            Leveraging decades of financial expertise, we partner with premier institutions to drive optimal outcomes and empower your success.
+          </p>
+          <ul>
+            <li><i class="bi bi-check2-all"></i> <span>Delivering robust, results-driven financial strategies that empower our clients.</span></li>
+            <li><i class="bi bi-check2-all"></i> <span>Ensuring transparency and excellence in every engagement.</span></li>
+            <li><i class="bi bi-check2-all"></i> <span>Innovating continuously to meet evolving financial needs while maintaining a commitment to personalized service and integrity.</span></li>
+          </ul>
+          <p>
+            Our firm combines industry-leading expertise with a bespoke approach to financial management, ensuring that every solution is tailored to the unique needs of our clients while upholding the highest standards of professionalism.
+          </p>
+          <a class="btn-getstarted" href="https://api.whatsapp.com/send?phone=60102899611&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp Us
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 <!-- /About Section -->
 
 <!-- Services Section -->
@@ -332,72 +332,7 @@
   </section>
 <!-- /Testimonials Section -->
 
-<!-- Team Section -->
-  <section id="team" class="team section">
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Team</h2>
-      <p>Our Expert Team</p>
-    </div>
-    <div class="container">
-      <div class="row gy-4">
-        <!-- CEO -->
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-          <div class="team-member">
-            <div class="member-img">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href=""><i class="bi bi-twitter-x"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info">
-              <h4>Chen Wei</h4>
-              <span>Chief Executive Officer</span>
-            </div>
-          </div>
-        </div>
-        <!-- CFO -->
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-          <div class="team-member">
-            <div class="member-img">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href=""><i class="bi bi-twitter-x"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info">
-              <h4>Minh Tran</h4>
-              <span>Chief Financial Officer</span>
-            </div>
-          </div>
-        </div>
-        <!-- Credit Management Specialist -->
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-          <div class="team-member">
-            <div class="member-img">
-              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href=""><i class="bi bi-twitter-x"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info">
-              <h4>Soojin Park</h4>
-              <span>Credit Management Specialist</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-<!-- /Team Section -->
+
 
 <!-- Contact Section -->
   <section id="contact" class="contact section">
