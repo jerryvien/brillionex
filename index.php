@@ -34,7 +34,7 @@
         <!-- Service 3: Business Finance -->
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
           <div class="icon-box">
-            <i class="bi bi-credit-card"></i>
+            <i class="bi bi-buildings"></i>
             <h3><a href="">Business Finance</a></h3>
           </div>
         </div>
