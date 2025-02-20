@@ -35,7 +35,7 @@
           <li><a href="index.php#hero" class="active">Home</a></li>
           <li><a href="about-us.php">About</a></li>
           <li><a href="index.php#services">Services</a></li>
-          <li><a href="index.php#team">Team</a></li>
+          
           <li class="dropdown">
             <a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
