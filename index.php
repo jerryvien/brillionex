@@ -20,7 +20,7 @@
         <!-- Service 1: Personal Finance -->
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
           <div class="icon-box">
-            <i class="bi bi-currency-dollar"></i>
+            <i class="bi bi-cash-coin"></i>
             <h3><a href="">Personal Finance</a></h3>
           </div>
         </div>
