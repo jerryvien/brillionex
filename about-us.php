@@ -2,7 +2,7 @@
 
 <main class="main" style="background-color: #f8f9fa; color: #212529;">
   <!-- Banner Section -->
-  <section id="banner" style="background: url('assets/img/many-mountains.jpg') center/cover no-repeat; padding: 120px 0; position: relative;">
+  <section id="banner" style="background: url('assets/img/many-mountains.jpg') center/cover no-repeat; padding: 90px 0; position: relative;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(33,37,41,0.6);"></div>
     <div class="container" data-aos="fade-up" style="position: relative; z-index: 2; text-align: center;">
       <h1 style="color: #fff; font-size: 2.5rem; margin-bottom: 20px;">About BrillionEx</h1>
