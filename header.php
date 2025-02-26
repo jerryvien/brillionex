@@ -29,7 +29,7 @@
       <a href="index.php" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Logo Image -->
         <img 
-          src="assets/img/BEX_Logo_Vertical.png" 
+          src="assets/img/BEX_Logo_Horizontal.png" 
           alt="BrillionEx Logo" 
           style="max-height: 40px; margin-right: 8px;"
         >
