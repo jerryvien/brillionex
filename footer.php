@@ -7,12 +7,11 @@
           <a href="index.php" class="logo d-flex align-items-center">
             <!-- Logo Image (Adjust the path and size as needed) -->
             <img 
-              src="assets/img/BEX_Favicon.png" 
+              src="assets/img/BEX_Logo_Horizontal.png" 
               alt="BrillionEx Logo" 
-              style="max-height: 40px; margin-right: 8px;"
+              style="max-height: 60px; margin-right: 8px;"
             >
-            <h1 class="sitename" style="margin: 0;">BrillionEx</h1>
-              <span>.</span>
+            
           </a>
           <div class="footer-contact pt-3">
             <p>Level 23A, Menara Allianz Sentral, 203, Jalan Tun Sambanthan, Brickfields, 50470 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
