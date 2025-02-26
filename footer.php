@@ -9,7 +9,7 @@
             <img 
               src="assets/img/BEX_Logo_Horizontal.png" 
               alt="BrillionEx Logo" 
-              style="max-height: 90px; margin-right: 8px;"
+              style="max-height: 120px; margin-right: 8px;"
             >
             
           </a>
