@@ -27,7 +27,14 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
       <a href="index.php" class="logo d-flex align-items-center me-auto me-lg-0">
-        <h1 class="sitename">BrillionEx</h1>
+        <!-- Logo Image -->
+        <img 
+          src="assets/img/BEX_Logo_Vertical.png" 
+          alt="BrillionEx Logo" 
+          style="max-height: 40px; margin-right: 8px;"
+        >
+        <!-- Sitename -->
+        <h1 class="sitename" style="margin: 0;">BrillionEx</h1>
         <span>.</span>
       </a>
       <nav id="navmenu" class="navmenu">
