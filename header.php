@@ -29,13 +29,13 @@
       <a href="index.php" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Logo Image -->
         <img 
-          src="assets/img/BEX_Favicon.png" 
+          src="assets/img/BEX_Logo_Vertical.png" 
           alt="BrillionEx Logo" 
           style="max-height: 40px; margin-right: 8px;"
         >
-        <!-- Sitename -->
+        <!-- Sitename
         <h1 class="sitename" style="margin: 0;">BrillionEx</h1>
-        <span>.</span>
+        <span>.</span> -->
       </a>
       <nav id="navmenu" class="navmenu">
         <ul>
@@ -56,7 +56,7 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-      <a class="btn-getstarted" href="https://api.whatsapp.com/send?phone=601126117766&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank">
+      <a class="btn-getstarted" href="https://api.whatsapp.com/send?phone=60126117766&text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank">
         <i class="fab fa-whatsapp"></i> WhatsApp Us
       </a>
     </div>
