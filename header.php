@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/BEX_Favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -29,7 +29,7 @@
       <a href="index.php" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Logo Image -->
         <img 
-          src="assets/img/BEX_Logo_Vertical.png" 
+          src="assets/img/BEX_Favicon.png" 
           alt="BrillionEx Logo" 
           style="max-height: 40px; margin-right: 8px;"
         >
