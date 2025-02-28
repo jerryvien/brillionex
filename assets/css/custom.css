@@ -1,0 +1,13 @@
+/* Default: Large logo (for desktop and larger screens) */
+.logo img {
+    height: 80px;       /* Adjust as needed for your desired large size */
+    width: auto;        /* Let width scale proportionally */
+    margin-right: 8px;
+  }
+  
+  /* Media Query: Smaller logo on mobile screens (max-width: 767px) */
+  @media (max-width: 767px) {
+    .logo img {
+      height: 40px;     /* Smaller size for mobile */
+    }
+  }

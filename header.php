@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet"> <!-- Your custom overrides -->
 </head>
 <body class="your-page-class">
   <header id="header" class="header d-flex align-items-center fixed-top">
@@ -31,7 +32,7 @@
         <img 
           src="assets/img/BEX_Logo_Long.png" 
           alt="BrillionEx Logo" 
-          style="max-height: 40px; margin-right: 8px;"
+         
         >
         <!-- Sitename
         <h1 class="sitename" style="margin: 0;">BrillionEx</h1>
