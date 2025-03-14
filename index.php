@@ -56,6 +56,7 @@
     </div>
   </section>
 <!-- /Hero Section -->
+
 <!-- About Section -->
   <section id="about" class="about section">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -151,6 +152,18 @@
               <h3>Loan Specialist</h3>
             </a>
             <p>Expert guidance to secure loan options tailored to your unique needs.</p>
+          </div>
+        </div>
+        <!-- Service 6: Car Loan Cash Out -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="bi bi-car-front"></i>
+            </div>
+            <a href="service-details.php" class="stretched-link">
+              <h3>Car Loan Cash Out</h3>
+            </a>
+            <p>Unlock cash by leveraging your vehicle's equity.</p>
           </div>
         </div>
       </div>
