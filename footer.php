@@ -14,7 +14,7 @@
             
           </a>
           <div class="footer-contact pt-3">
-            <p>Level 23A, Menara Allianz Sentral, 203, Jalan Tun Sambanthan, Brickfields, 50470 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+            <p>C-10-01, Sunway Nexis Office, Jalan PJU 5/1, Kota Damansara, 47810 Petaling Jaya, Selangor.</p>
             <p class="mt-3"><strong>Phone:</strong> <span>03-29359553</span></p>
             <p><strong>Email:</strong> <span>info@brillionex.com</span></p>
           </div>

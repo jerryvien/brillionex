@@ -258,7 +258,7 @@
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
         <iframe style="border:0; width: 100%; height: 270px;" 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.282535137082!2d101.68508894320591!3d3.141317359083744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3719d39e3f37%3A0x2da1a2d86c23f1c4!2sMenara%20Allianz%20Sentral!5e0!3m2!1sen!2smy!4v1676961268712!5m2!1sen!2smy" 
+                src="https://maps.google.com/maps?q=C-10-01%2C%20Sunway%20Nexis%20Office%2C%20Jalan%20PJU%205%2F1%2C%20Kota%20Damansara%2C%2047810%20Petaling%20Jaya%2C%20Selangor&t=&z=15&ie=UTF8&iwloc=&output=embed" 
                 frameborder="0" 
                 allowfullscreen="" 
                 loading="lazy" 
@@ -270,7 +270,7 @@
             <i class="bi bi-geo-alt flex-shrink-0"></i>
             <div>
               <h3>Address</h3>
-              <p>Level 23A, Menara Allianz Sentral, 203, Jalan Tun Sambanthan, Brickfields, 50470 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+              <p>C-10-01, Sunway Nexis Office, Jalan PJU 5/1, Kota Damansara, 47810 Petaling Jaya, Selangor.</p>
             </div>
           </div>
           <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
@@ -368,5 +368,4 @@
 </main>
 
 <?php include 'footer.php'; ?>
-
 
