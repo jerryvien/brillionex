@@ -15,14 +15,8 @@
           </a>
           <div class="footer-contact pt-3">
             <p>C-10-01, Sunway Nexis Office, Jalan PJU 5/1, Kota Damansara, 47810 Petaling Jaya, Selangor.</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>03-29359553</span></p>
+            <p class="mt-3"><strong>Phone:</strong> <span>017-9726988</span></p>
             <p><strong>Email:</strong> <span>info@brillionex.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href="#"><i class="bi bi-twitter-x"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
         <!-- Useful Links Column -->

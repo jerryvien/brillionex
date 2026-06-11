@@ -277,7 +277,7 @@
             <i class="bi bi-telephone flex-shrink-0"></i>
             <div>
               <h3>Call Us</h3>
-              <p>03-29359553</p>
+              <p>017-9726988</p>
             </div>
           </div>
           <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
@@ -368,4 +368,3 @@
 </main>
 
 <?php include 'footer.php'; ?>
-
