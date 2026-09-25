@@ -15,6 +15,26 @@
       "permanent": true
     },
     {
+      "source": "/blank",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/service-details",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio-details",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/starter-page",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/index",
       "destination": "/",
       "permanent": true
