@@ -3,8 +3,31 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/index", "destination": "/", "permanent": true },
-    { "source": "/index.php", "destination": "/", "permanent": true },
-    { "source": "/:path*.php", "destination": "/:path*", "permanent": true }
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.brillionex.com"
+        }
+      ],
+      "destination": "https://brillionex.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/index",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index.php",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*.php",
+      "destination": "/:path*",
+      "permanent": true
+    }
   ]
 }
